@@ -8,9 +8,7 @@ turtles = [{name: "Donatello", weapon: "bo-staff", traits: ["serious", "leader"]
 
 def turtle_traits(turtles)
 
-
-
-  traits_array = turtles.map {|index| [index[:traits]]}
+  turtles.map{|index| index[:traits]}
 
 
 
