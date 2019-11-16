@@ -8,14 +8,13 @@ turtles = [{name: "Donatello", weapon: "bo-staff", traits: ["serious", "leader"]
 
 def turtle_traits(turtles)
 
-  turtle_traits_array = []
+  traits_array = (turtles.map {|index| [index[:traits]]})
 
 
 
-  turtles.map do |turtle|
-    turtle[:traits].each do |trait|
-      trait
-    end
-  end
+  # turtles.map do |turtle|
+  #   turtle[:traits].each do |trait|
+  #     trait
+  #   end
+  # end
 end
-binding.pry
