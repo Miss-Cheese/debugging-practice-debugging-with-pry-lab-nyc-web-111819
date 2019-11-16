@@ -1,6 +1,3 @@
-require 'pry'
-
-
 
 def turtle_traits(turtles)
 
