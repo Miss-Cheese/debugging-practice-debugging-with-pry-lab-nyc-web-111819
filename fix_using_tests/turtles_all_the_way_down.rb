@@ -6,7 +6,7 @@ turtles = [{name: "Donatello", weapon: "bo-staff", traits: ["serious", "leader"]
       {name: "Raphael", weapon: "sais", traits: ["cool", "rude"]},
       {name: "Leonardo", weapon: "katanas", traits: ["loves being a turtle"]}]
 
-def turtle_traits(turtles)
+def turtle_traits(array)
 
   turtles.map{|index| index[:traits]}
 
